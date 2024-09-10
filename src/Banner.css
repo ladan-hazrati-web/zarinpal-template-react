@@ -46,8 +46,7 @@
   .text-banner {
     width: 50%;
     height: 100% !important;
-    background-color: transparent;
-    background-image: null;
+    background: transparent;
     text-align: right;
     justify-content: start;
     align-content: space-between;
