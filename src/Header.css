@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 15px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.header-left-section {
+  display: none;
+  align-items: center;
+}
+.zarinpal-btn {
+  border: none;
+  background-color: rgb(224, 224, 255);
+  color: rgb(34, 34, 147);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.header-icon {
+  display: flex;
+  transform: rotate(90deg);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .header-left-section {
+    display: flex;
+  }
+  .header-icon {
+    display: none;
+  }
+}
